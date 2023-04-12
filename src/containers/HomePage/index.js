@@ -35,10 +35,10 @@ export const HomePage = () => {
       <TextSection className="text-sec">
         <Container>
           <Grid container spacing={5} alignItems="center">
-            <Grid xs={6} textAlign={"right"}>
+            <Grid md={6} textAlign={"right"}>
               <img src={Img} alt="Image" className="text-img"/>
             </Grid>
-            <Grid xs={6}>
+            <Grid md={6}>
               <h2>Tutustu Suomen hotellit parhaimpiin</h2>
               <Paragraph>
                 Tutustu Suomen parhaimpiin kasinohotelleihin verkkosivuillamme.

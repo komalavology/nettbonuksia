@@ -1,15 +1,21 @@
 export const Data=[
     {
-        text:"Hotels",
+        text:"Hotellit",
+        link:"/"
     },
     {
-        text:"About us",
+        text:"Meistä",
+        link:"/meistä"
     },
     {
-        text: "Terms & Conditions",
+        text: "Käyttöehdot",
+        link: "/Käyttöehdot"
     },
     {
-        text: "Privacy Policy",
+        text: "Tietosuojakäytäntö",
+    },
+    {
+        text: "Ota meihin yhteyttä"
     }
 ];
 

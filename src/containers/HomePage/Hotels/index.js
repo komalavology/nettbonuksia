@@ -11,10 +11,10 @@ import { HotelsSec } from "./style";
 export const Hotels = () => {
   //Owl Carousel Settings
   const options = {
-    loop: false,
+    loop: true,
     items: 4,
     margin:10,
-    autoplay: false,
+    autoplay: true,
     dots: false,
     autoplayTimeout: 8500,
     smartSpeed: 450,
