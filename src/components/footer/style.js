@@ -26,6 +26,9 @@ export const FooterWrapper = styled.section`
                         color:var(--primary-color);
                     }
                 }
+                ::marker {
+                    content: none;
+                  }
             }
             
         }
