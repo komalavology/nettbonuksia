@@ -5,16 +5,17 @@ export const CardHeading = styled.h3`
     margin:0 0 10px;
     text-transform:capitalize;
     font-size:21px;
+    color:#b6142c;
 `;
 
 export const CardLink = styled.a`
     position:relative;
-    background:var(--yellow);
+    background:var(--primary-color);
     display:block;
     text-align:center;
     padding:10px 0;
     width:100%;
-    color: var(--secondary-color);
+    color: var(--white);
     font-weight:600;
     transition: .5s;
     &:hover{
@@ -40,7 +41,7 @@ export const Address = styled.div`
 export const CardBottom = styled.div`
         padding: 0 10px 10px;
         margin-top: -80px;
-        background: #f1f1f1;
+        background: rgb(249 252 255);
         width: 80%;
         margin-left: auto;
         margin-right: auto; 

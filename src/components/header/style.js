@@ -4,9 +4,10 @@ export const HeaderWrapper = styled.header`
   overflow: hidden;
   position: relative;
   box-shadow:0 0 10px 2px #ddd;
+  padding:15px 0;
    .logo img{
     max-width:150px;
-    padding:0 10px;
+    padding:0px 10px;
     width:100%;
    } 
    .menu{
