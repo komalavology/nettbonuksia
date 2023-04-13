@@ -32,4 +32,24 @@ export const TextSection = styled.section`
         padding: 5px;
         box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px 10px;
     }
-`
+    @media only screen and (max-width:991px){
+        .text-img {
+            width: 400px;
+            height: 400px;
+        }
+    }
+    @media only screen and (max-width:899px){
+        .grd_width{
+            justify-content:center;
+        }
+        .grd_two{text-align:center;}
+        .grd_two h2:after{left:50%;transform:translateX(-50%);}
+    }
+    @media only screen and (max-width:575px){
+        .text-img {
+            width: 320px;
+            height: 320px;
+        }
+        .font-change{font-size:22px;}
+    }
+`;

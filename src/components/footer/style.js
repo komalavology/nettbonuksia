@@ -17,6 +17,7 @@ export const FooterWrapper = styled.section`
             justify-content:center;
             padding-left:0;
             margin-bottom:30px;
+            flex-wrap:wrap;
             li{
                 &:first-child{padding-left:0;}
                 padding-left:15px;

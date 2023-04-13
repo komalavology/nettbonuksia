@@ -14,7 +14,7 @@ export const AboutPage = () => {
       <SubBanner heading="Meistä" />
       <AboutInner>
         <Container>
-          <Grid container spacing={10}>
+          <Grid container spacing={{ xs: 2, md: 10 }} >
             <Grid md={6}>
               <img src={Img} alt="About us" />
             </Grid>

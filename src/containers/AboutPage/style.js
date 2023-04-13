@@ -23,5 +23,7 @@ export const AboutInner = styled.section`
             height: 100%;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 15px 10px;
             padding: 5px;
+            object-fit:cover;
         }
+        
 `;

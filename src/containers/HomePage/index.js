@@ -12,9 +12,9 @@ export const HomePage = () => {
     <>
       <Header />
       <Banner />
-      <TextSection>
+      <TextSection >
         <Container>
-          <h2>Suomen parhaat kasinohotellit</h2>
+          <h2 className="font-change">Suomen parhaat kasinohotellit</h2>
           <Paragraph>
             Tervehdys ja tervetuloa Suomen parhaiden kasinohotellien
             pääsivustolle! Niille, jotka etsivät rauhallista tapaa rentoutua,
@@ -34,12 +34,12 @@ export const HomePage = () => {
       <Hotels />
       <TextSection className="text-sec">
         <Container>
-          <Grid container spacing={5} alignItems="center">
+          <Grid container spacing={5} alignItems="center" className="grd_width">
             <Grid md={6} textAlign={"right"}>
               <img src={Img} alt="Image" className="text-img"/>
             </Grid>
-            <Grid md={6}>
-              <h2>Tutustu Suomen hotellit parhaimpiin</h2>
+            <Grid md={6} className="grd_two">
+              <h2 className="font-change">Tutustu Suomen hotellit parhaimpiin</h2>
               <Paragraph>
                 Tutustu Suomen parhaimpiin kasinohotelleihin verkkosivuillamme.
                 Selaa yksityiskohtaista tietoa eri hotellien tarjoamista

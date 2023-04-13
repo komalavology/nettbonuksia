@@ -28,5 +28,8 @@ export const BannerWrapper = styled.section`
             background: #b6142c;
         }
     }
+     @media only screen and (max-width:575px){
+        h1{font-size:26px;}
+     }
 `;
 
