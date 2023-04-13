@@ -220,13 +220,13 @@ export const TermsPage = () => {
             </ul>
           </li>
         </ul>
-        <h3>iFrames</h3>
+        <h2>iFrames</h2>
         <Paragraph>
           Ilman ennakkohyväksyntää ja kirjallista lupaa et saa luoda
           Web-sivujemme ympärille kehyksiä, jotka muuttavat millään tavalla
           verkkosivustomme visuaalista esitystapaa tai ulkoasua.
         </Paragraph>
-        <h3>Sisältövastuu</h3>
+        <h2>Sisältövastuu</h2>
         <Paragraph>
           Emme ole vastuussa mistään verkkosivustollasi näkyvästä sisällöstä.
           Sitoudut suojelemaan ja puolustamaan meitä kaikkia verkkosivustollasi
@@ -235,7 +235,7 @@ export const TermsPage = () => {
           rikolliseksi tai jotka loukkaavat tai muuten loukkaavat tai puoltavat
           loukkaamista tai muuta loukkaamista kolmannen osapuolen oikeuksissa.
         </Paragraph>
-        <h3>Oikeuksien pidätys</h3>
+        <h2>Oikeuksien pidätys</h2>
         <Paragraph>
           Pidätämme oikeuden pyytää sinua poistamaan kaikki linkit tai tietyt
           linkit verkkosivustollemme. Suostut poistamaan välittömästi kaikki
@@ -244,7 +244,7 @@ export const TermsPage = () => {
           jatkuvasti verkkosivustoomme, sitoudut noudattamaan näitä
           linkitysehtoja.
         </Paragraph>
-        <h3>Linkkien poistaminen sivuiltamme</h3>
+        <h2>Linkkien poistaminen sivuiltamme</h2>
         <Paragraph>
           Jos löydät verkkosivustoltamme linkin, joka on jostain syystä
           loukkaava, voit vapaasti ottaa yhteyttä ja ilmoittaa meille milloin
@@ -257,7 +257,7 @@ export const TermsPage = () => {
           verkkosivusto pysyy saatavilla tai että verkkosivustolla oleva
           materiaali pidetään ajan tasalla.
         </Paragraph>
-        <h3>Vastuuvapauslauseke</h3>
+        <h2>Vastuuvapauslauseke</h2>
         <Paragraph>
           Sovellettavan lain sallimissa rajoissa suljemme pois kaikki esitykset,
           takuut ja ehdot, jotka liittyvät verkkosivustoomme ja tämän

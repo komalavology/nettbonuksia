@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
 export const ContentWrapper = styled.section`
+    h2{
+        color:var(--primary-color);
+    }
+    h3{
+        font-weight:500;
+    }
     ul{
         list-style-type: disc;
         li{
