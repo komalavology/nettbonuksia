@@ -13,6 +13,7 @@ export const Data=[
     },
     {
         text: "Tietosuojakäytäntö",
+        link: "/Tietosuojakäytäntö"
     },
     {
         text: "Ota meihin yhteyttä"

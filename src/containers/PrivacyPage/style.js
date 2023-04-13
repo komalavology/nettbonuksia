@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ContentWrapper = styled.section`
-    padding:0 40px;
+  padding: 40px 0;
     h2{
         color:var(--primary-color);
     }
@@ -28,6 +28,15 @@ export const ContentWrapper = styled.section`
                 @media only screen and (max-width:767px){
                     padding-left:20px;
                 }
+            }
+        }
+    }
+    p{
+        a{
+            color:var(--grey);
+            text-decoration:underline;
+            &:hover{
+            color: var(--primary-color);
             }
         }
     }
