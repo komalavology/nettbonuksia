@@ -10,6 +10,7 @@ import AOS from 'aos'
 import { useState, useEffect } from 'react';
 import Loader from "./components/Loader";
 import { PrivacyPage } from './containers/PrivacyPage';
+import { ContactPage } from './containers/ContactPage';
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
         <Route path='/meistä' element={<AboutPage/>} />
         <Route path='/Käyttöehdot' element={<TermsPage/>} />
         <Route path='/Tietosuojakäytäntö' element={<PrivacyPage/>} />
+        <Route path='/Ota meihin yhteyttä' element={<ContactPage/>} />
       </Routes>
 
       </>

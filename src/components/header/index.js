@@ -19,7 +19,7 @@ export const Header = () => {
        </a>
       </Grid>
       <Grid xs={8}>
-      <ul class="menu">
+      <ul className="menu">
       {Data?.map((item, index) => {
         return (
           <Menus data={item} key={index}/>

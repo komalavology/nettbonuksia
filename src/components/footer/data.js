@@ -16,7 +16,8 @@ export const Data=[
         link: "/Tietosuojakäytäntö"
     },
     {
-        text: "Ota meihin yhteyttä"
+        text: "Ota meihin yhteyttä",
+        link: "/Ota meihin yhteyttä"
     }
 ];
 

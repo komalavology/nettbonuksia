@@ -12,12 +12,12 @@ export const Footer = () => {
             <a href="/" className="logo">
               <img src={Logo} alt="Site Logo" />
             </a>
-            <ul class="menu">
+            <ul className="menu">
               {Data?.map((item, index) => {
                 return <Menus data={item} key={index} />;
               })}
             </ul>
-            <p class="copyright">
+            <p className="copyright">
               Copyright © 2023 Nettbonuksia
             </p>
         </div>
