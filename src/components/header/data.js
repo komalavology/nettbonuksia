@@ -1,11 +1,11 @@
 export const Data=[
     {
         text:"Hotellit",
-        link:"/"
+        link:"/nettbonuksia"
     },
     {
         text:"Meistä",
-        link:"/meistä"
+        link:"/nettbonuksia/meistä"
     }
 ];
 

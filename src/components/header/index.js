@@ -14,7 +14,7 @@ export const Header = () => {
     <Box sx={{ flexGrow: 1 }}>
     <Grid container spacing={2} className="head-inner">
       <Grid xs={4}>
-       <a href="/" className="logo">
+       <a href="/nettbonuksia" className="logo">
         <img src={Logo} alt="Site Logo"/>
        </a>
       </Grid>

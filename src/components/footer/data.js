@@ -1,23 +1,23 @@
 export const Data=[
     {
         text:"Hotellit",
-        link:"/"
+        link:"/nettbonuksia"
     },
     {
         text:"Meistä",
-        link:"/meistä"
+        link:"/nettbonuksia/meistä"
     },
     {
         text: "Käyttöehdot",
-        link: "/Käyttöehdot"
+        link: "/nettbonuksia/käyttöehdot"
     },
     {
         text: "Tietosuojakäytäntö",
-        link: "/Tietosuojakäytäntö"
+        link: "/nettbonuksia/tietosuojakäytäntö"
     },
     {
         text: "Ota meihin yhteyttä",
-        link: "/Ota meihin yhteyttä"
+        link: "/nettbonuksia/ota-meihin-yhteyttä"
     }
 ];
 

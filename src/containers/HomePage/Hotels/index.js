@@ -32,7 +32,7 @@ export const Hotels = () => {
     }
 };
   return (
-    <HotelsSec class="Hotels-sec">
+    <HotelsSec className="Hotels-sec">
       <Container>
         <OwlCarousel className='owl-theme card-carousel' {...options}>
         {Data?.map((item, index) => {

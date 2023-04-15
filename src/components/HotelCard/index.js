@@ -3,7 +3,6 @@ import { CardHeading, CardLink, Address, CardBottom} from "./style";
 import { Paragraph } from "../typography";
 
 export const HotelCard = ({data}) => {
-    console.log(data)
     return(
         <Card style={{boxShadow: "none"}}> 
             <CardMedia
@@ -20,7 +19,7 @@ export const HotelCard = ({data}) => {
                     </Address>
                 </CardContent>
                 <CardActions>
-                    <CardLink href={data?.link} class="more">Know More</CardLink>
+                    <CardLink href={data?.link} className="more">Know More</CardLink>
                 </CardActions>
             </CardBottom>
         </Card>

@@ -1,17 +1,11 @@
 import './App.css';
 import "@fontsource/montserrat";
 import "@fontsource/oswald"
-import { Routes, Route } from 'react-router-dom';
-import { HomePage } from './containers';
-import { AboutPage } from './containers/AboutPage';
-import { TermsPage } from './containers/TermsPage';
-
+import { RouterProvider} from 'react-router-dom';
 import AOS from 'aos'
 import { useState, useEffect } from 'react';
 import Loader from "./components/Loader";
-import { PrivacyPage } from './containers/PrivacyPage';
-import { ContactPage } from './containers/ContactPage';
-
+import { router } from "./utils/routes";
 function App() {
 
    const [loading, setLoading] = useState(true);
@@ -34,14 +28,7 @@ function App() {
   } else {
     return (
       <>
-      <Routes>
-        <Route path='/' element={<HomePage/>} />
-        <Route path='/meistä' element={<AboutPage/>} />
-        <Route path='/Käyttöehdot' element={<TermsPage/>} />
-        <Route path='/Tietosuojakäytäntö' element={<PrivacyPage/>} />
-        <Route path='/Ota meihin yhteyttä' element={<ContactPage/>} />
-      </Routes>
-
+      <RouterProvider basename="/nettbonuksia" router={router} />
       </>
     );
 }
