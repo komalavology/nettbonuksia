@@ -50,7 +50,7 @@ export const HeaderWrapper = styled.header`
     }
     .close {
       text-align: right;
-      display: block;
+      display: none;
       color: var(--white);
       font-size: 24px;
       font-weight: bold;
@@ -61,23 +61,25 @@ export const HeaderWrapper = styled.header`
     }
     .menu-items {
       @media screen and (max-width: 767px) {
-        width:0;
         opacity:0;
         transition:all 0.5s;
         display:block;
         padding: 20px;
-        
+        width:200px;
         background: var(--secondary-color);
         position: fixed;
         height: 100vh;
         right: 0;
         top: 0;
         z-index: 99999;
-        
+        transform: translateX(100%);
+      }
+      &.open .close{
+        display:block;
       }
       &.open {
         opacity:1;
-        width: 200px;
+        transform: translateX(0);
       }
       &.open .menu {
         display: block;
