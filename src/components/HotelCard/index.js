@@ -14,12 +14,12 @@ export const HotelCard = ({data}) => {
                 <CardContent>
                     <CardHeading>{data?.name}</CardHeading>
                     <Address>
-                        <b>Address:</b>
+                        <b>Osoite:</b>
                         <Paragraph>{data?.address}</Paragraph>
                     </Address>
                 </CardContent>
                 <CardActions>
-                    <CardLink href={data?.link} className="more">Know More</CardLink>
+                    <CardLink href={data?.link} className="more">Tietää enemmän</CardLink>
                 </CardActions>
             </CardBottom>
         </Card>

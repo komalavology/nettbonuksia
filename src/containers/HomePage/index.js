@@ -7,9 +7,13 @@ import { Hotels } from "./Hotels";
 import Grid from "@mui/material/Unstable_Grid2";
 import Img from "../../assets/img1.jpg"
 import { Footer } from "../../components/footer";
+import {Helmet} from "react-helmet-async";
 export const HomePage = () => {
   return (
     <>
+      <Helmet>
+        <title>Koti</title>
+      </Helmet>
       <Header />
       <Banner />
       <TextSection >

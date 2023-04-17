@@ -8,6 +8,7 @@ import { Footer } from "../../components/footer";
 import { SubBanner } from "../../components/subBanner";
 import { FormWrapper } from "./style";
 import Img from "../../assets/contact.png";
+import { Helmet } from "react-helmet-async";
 const inputFieldValues = [
   {
     name: "firstName",
@@ -49,6 +50,9 @@ export const ContactPage = () => {
 
   return (
     <>
+    <Helmet>
+      <title>Ota meihin yhteytta</title>
+    </Helmet>
       <Header />
       <SubBanner heading="Ota meihin yhteyttä" />
       <Container>
@@ -91,7 +95,7 @@ export const ContactPage = () => {
                     color="secondary"
                     disabled={!formIsValid()}
                   >
-                    Send Message
+                    Lähetä viesti
                   </Button>
                   </Grid>
                 </Grid>

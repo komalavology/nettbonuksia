@@ -12,24 +12,28 @@ import {
       errorElement: <ErrorPage />
     },
     {
-        path: "/meistä",
+        path: "/meista",
         element: <AboutPage />,
         errorElement: <ErrorPage />
     },
     {
-        path: "/käyttöehdot",
+        path: "/kayttoehdot",
         element: <TermsPage />,
         errorElement: <ErrorPage />
     },
     {
-        path: "/ota-meihin-yhteyttä",
+        path: "/ota-meihin-yhteytta",
         element: <ContactPage />,
         errorElement: <ErrorPage />
     },
     {
-        path: "/tietosuojakäytäntö",
+        path: "/tietosuojakaytanto",
         element: <PrivacyPage />,
         errorElement: <ErrorPage />
+    },
+    {
+        path: "*",
+        element: <ErrorPage />
     }
 
   ];

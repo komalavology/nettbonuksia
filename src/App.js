@@ -6,6 +6,7 @@ import AOS from 'aos'
 import { useState, useEffect } from 'react';
 import Loader from "./components/Loader";
 import { router } from "./utils/routes";
+import {HelmetProvider } from "react-helmet-async";
 function App() {
 
    const [loading, setLoading] = useState(true);
@@ -28,7 +29,9 @@ function App() {
   } else {
     return (
       <>
+      <HelmetProvider>
       <RouterProvider basename="/nettbonuksia" router={router} />
+      </HelmetProvider>
       </>
     );
 }

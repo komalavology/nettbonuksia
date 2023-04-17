@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const FooterWrapper = styled.section`
+export const FooterWrapper = styled.footer`
         position:relative;
         background: var(--secondary-color);
         padding:40px 0 0;

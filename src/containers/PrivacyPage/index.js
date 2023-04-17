@@ -4,10 +4,14 @@ import { SubBanner } from "../../components/subBanner";
 import { ContentWrapper } from "./style";
 import { Paragraph } from "../../components/typography";
 import { Container } from "@mui/material";
+import { Helmet } from "react-helmet-async";
 
 export const PrivacyPage = () => {
   return (
     <>
+    <Helmet>\
+      <title>tietosuojakaytanto</title>
+    </Helmet>
       <Header />
       <SubBanner heading="Nettbonuksian tietosuojakäytäntö" />
       <Container>

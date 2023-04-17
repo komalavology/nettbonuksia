@@ -5,19 +5,19 @@ export const Data=[
     },
     {
         text:"Meistä",
-        link:"/nettbonuksia/meistä"
+        link:"/nettbonuksia/meista"
     },
     {
         text: "Käyttöehdot",
-        link: "/nettbonuksia/käyttöehdot"
+        link: "/nettbonuksia/kayttoehdot"
     },
     {
         text: "Tietosuojakäytäntö",
-        link: "/nettbonuksia/tietosuojakäytäntö"
+        link: "/nettbonuksia/tietosuojakaytanto"
     },
     {
         text: "Ota meihin yhteyttä",
-        link: "/nettbonuksia/ota-meihin-yhteyttä"
+        link: "/nettbonuksia/ota-meihin-yhteytta"
     }
 ];
 

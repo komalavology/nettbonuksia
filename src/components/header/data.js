@@ -5,7 +5,7 @@ export const Data=[
     },
     {
         text:"Meistä",
-        link:"/nettbonuksia/meistä"
+        link:"/nettbonuksia/meista"
     }
 ];
 

@@ -4,10 +4,14 @@ import { SubBanner } from "../../components/subBanner";
 import { ContentWrapper } from "./style";
 import { Paragraph } from "../../components/typography";
 import { Container } from "@mui/material";
+import { Helmet } from "react-helmet-async";
 
 export const TermsPage = () => {
   return (
     <>
+    <Helmet>
+      <title>Kayttoehdot</title>
+    </Helmet>
       <Header />
       <SubBanner heading="Käyttöehdot" />
       <Container>

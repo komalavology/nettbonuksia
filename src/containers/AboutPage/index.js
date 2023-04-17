@@ -6,10 +6,14 @@ import Grid from '@mui/material/Unstable_Grid2';
 import Img from "../../assets/about.png";
 import { Paragraph } from "../../components/typography";
 import { SubBanner } from "../../components/subBanner";
+import { Helmet } from "react-helmet-async";
 
 export const AboutPage = () => {
   return (
     <>
+    <Helmet>
+      <title>Meista</title>
+    </Helmet>
       <Header />
       <SubBanner heading="Meistä" />
       <AboutInner>
