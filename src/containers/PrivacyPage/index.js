@@ -10,7 +10,7 @@ export const PrivacyPage = () => {
   return (
     <>
     <Helmet>\
-      <title>tietosuojakaytanto</title>
+      <title>Tietosuojakaytanto</title>
     </Helmet>
       <Header />
       <SubBanner heading="Nettbonuksian tietosuojakäytäntö" />
